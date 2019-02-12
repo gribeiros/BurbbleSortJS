@@ -31,9 +31,9 @@ var inicio = new Date();
 
 var fim = new Date();
 var total = (fim - inicio)/1000;
-console.log("Ola");
-//document.getElementById("troca").innerHTML = "Trocas: " + cont;
-//document.getElementById("tempo").innerHTML = "Tempo: " + total.toFixed(3);
+
+document.getElementById("troca").innerHTML = "Trocas: " + cont;
+document.getElementById("tempo").innerHTML = "Tempo: " + total.toFixed(3);
 
 
 }
